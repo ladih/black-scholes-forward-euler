@@ -2,7 +2,7 @@
 # Vt = r * V - r * S * Vx - 0.5 * sigma**2 * S**2 * Vxx
 #
 # Time step (backwards):
-# V(t-1) = V(t)
+# V(t-dt) = V(t)
 #          - 0.5 * sigma^2 * S(t)^2 * V_SS(t) * dt
 #          - rS(t)V_S(t) * dt
 #          + rV(t) * dt
